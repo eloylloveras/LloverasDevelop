@@ -26,6 +26,10 @@
         <a href="#" data-toggle-theme class="header-icon header-icon-4"><i class="fas fa-lightbulb"></i></a>
     </div>
 
+    <div id="footer-bar" class="footer-bar-1">
+        <a href="#" data-menu="menu-install-pwa-android"><i class="fa fa-cog"></i><span>Install App Android</span></a>
+        <a href="#" data-menu="menu-install-pwa-ios"><i class="fa fa-cog"></i><span>Install App Ios</span></a>
+    </div>
         
     <div class="page-content header-clear-medium">
         
@@ -83,22 +87,7 @@
     </div>
     <!-- End of Page Content--> 
         <!-- All Menus, Action Sheets, Modals, Notifications, Toasts, Snackbars get Placed outside the <div class="page-content"> -->
-    
-        <!-- Install Prompt for Android -->
-    <div id="menu-install-pwa-android" class="menu menu-box-bottom menu-box-detached rounded-l"
-         data-menu-height="350" 
-        data-menu-effect="menu-parallax">
-        <div class="boxed-text-l mt-4">
-            <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
-            <h4 class="mt-3">Add Sticky on your Home Screen</h4>
-            <p>
-                Install Sticky on your home screen, and access it just like a regular app. It really is that simple!
-            </p>
-            <a href="#" class="pwa-install btn btn-s rounded-s shadow-l text-uppercase font-900 bg-highlight mb-2">Add to Home Screen</a><br>
-            <a href="#" class="pwa-dismiss close-menu color-gray2-light text-uppercase font-900 opacity-60 font-10">Maybe later</a>
-            <div class="clear"></div>
-        </div>
-    </div>   
+        
     
     <div id="menu-settings" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="308">
         <div class="menu-title"><h1>Settings</h1><p class="color-highlight">Flexible and Easy to Use</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
@@ -133,6 +122,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- Menu Settings Highlights-->
     <div id="menu-highlights" class="menu menu-box-bottom menu-box-detached rounded-m" data-menu-height="380" data-menu-effect="menu-over">
         <div class="menu-title"><h1>Highlights</h1><p class="color-highlight">Any Element can have a Highlight Color</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
@@ -212,6 +203,43 @@
                     <i class="fa fa-angle-right"></i>
                 </a>
             </div>
+        </div>
+    </div>
+
+
+
+
+      <!-- Be sure this is on your main visiting page, for example, the index.html page-->
+    <!-- Install Prompt for Android -->
+    <div id="menu-install-pwa-android" class="menu menu-box-bottom menu-box-detached rounded-l"
+         data-menu-height="350" 
+        data-menu-effect="menu-parallax">
+        <div class="boxed-text-l mt-4">
+            <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+            <h4 class="mt-3">Add Sticky on your Home Screen</h4>
+            <p>
+                Install Sticky on your home screen, and access it just like a regular app. It really is that simple!
+            </p>
+            <a href="#" class="pwa-install btn btn-s rounded-s shadow-l text-uppercase font-900 bg-highlight mb-2">Add to Home Screen</a><br>
+            <a href="#" class="pwa-dismiss close-menu color-gray2-light text-uppercase font-900 opacity-60 font-10">Maybe later</a>
+            <div class="clear"></div>
+        </div>
+    </div>   
+
+    <!-- Install instructions for iOS -->
+    <div id="menu-install-pwa-ios" 
+        class="menu menu-box-bottom menu-box-detached rounded-l"
+         data-menu-height="320" 
+        data-menu-effect="menu-parallax">
+        <div class="boxed-text-xl mt-4">
+            <img class="rounded-l mb-3" src="app/icons/icon-128x128.png" alt="img" width="90">
+            <h4 class="mt-3">Add Sticky on your Home Screen</h4>
+            <p class="mb-0 pb-0">
+                Install Sticky on your home screen, and access it just like a regular app.  Open your Safari menu and tap "Add to Home Screen".
+            </p>
+            <div class="clear"></div>
+            <a href="#" class="pwa-dismiss close-menu color-highlight uppercase ultrabold opacity-80 top-25">Maybe later</a>
+            <i class="fa-ios-arrow fa fa-caret-down font-40"></i>
         </div>
     </div>
    
