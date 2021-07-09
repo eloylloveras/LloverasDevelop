@@ -1,8 +1,8 @@
 //Loading the Service Worker
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('_service-worker.js', {scope: ''});
-  });
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('https://eloylloveras.github.io/LloverasDevelop/_service-worker.js', {scope: 'https://eloylloveras.github.io/LloverasDevelop/'});
+    });
 }
 
 
