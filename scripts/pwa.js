@@ -1,7 +1,7 @@
 //Loading the Service Worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/products/duodrawer/_service-worker.js', {scope: '/products/duodrawer/'});
+    navigator.serviceWorker.register('LloverasDevelop/_service-worker.js', {scope: '/LloverasDevelop/'});
   });
 
 
