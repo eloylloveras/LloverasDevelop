@@ -1,8 +1,9 @@
 //Loading the Service Worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('LloverasDevelop/_service-worker.js', {scope: '/LloverasDevelop/'});
+    navigator.serviceWorker.register('_service-worker.js', {scope: ''});
   });
+}
 
 
 $(document).ready(function(){      
