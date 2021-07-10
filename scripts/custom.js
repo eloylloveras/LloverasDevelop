@@ -8,7 +8,7 @@ $(document).ready(function(){
     
     var isPWA = true; //Enables PWA.js which loads manifest & service worker.
     var isAJAX = true; //Enables or disable AJAX page transitions and loading.
-    var isDevelopment = true; // Enables development mode. Clean cache & Stops BG & Highlights from changing defaults.
+    var isDevelopment = false; // Enables development mode. Clean cache & Stops BG & Highlights from changing defaults.
     
 	function init_template(){
                 
