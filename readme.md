@@ -283,10 +283,28 @@ print(DATA_3)
 
 <br>
 
-# DOCUMENT'S LEGEND
-1. [DOCUMENT NAME] - [IN WHAT BUCKET IS IT /name + id] - [HIS BEDROCK KNOWLEDGE BASE/name + id] His content , why its imporant. 
-1. 
-1.
+## DOCUMENT'S LEGEND
+ 
+1.	DAT30_01 (Knowledge Base ID’s: 9LU9RAZUQL)<br>
+&emsp;a.	All the files here are the patiente clinic notes
+2.	CLINTRIALBUCKET (Knowledge Base ID’s: 3ZL5WKBYIC )<br>
+&emsp;a.	Trials_inclusion_exclusionTA.json (The trials obtained from the ClinicalTrials.gov )
+3.	EXTENDEDGUIDLINESBUCKET (Knowledge Base ID’s: YCGTJ9OF2Q, UK3QFV2VTK)<br>
+&emsp;a.	Formed by 11 pdf with Guidelines 
+4.	EXTRAINFOBUCKET (Knowledge Base ID’s: WKLGRLDZZS )<br>
+&emsp;a.	TractamentsEstadi1a3.pdf (Document where its defined different treatments for Estadi 1 to 3)<br>
+5.	GUIDLINESBUCKET (Knowledge Base ID’s: YCGTJ9OF2Q, UK3QFV2VTK)<br>
+&emsp;a.	Combinepdf.pdf (NSCLC_1.pdf and NSCLC_2.pdf combined)<br>
+&emsp;b.	NSCLC_1.pdf  and NSCLC_2.pdf (Treatments for NSCLC Subtipo)<br>
+&emsp;c.	SCLC.pdf (Treatments for SCLC Subtipo)<br>
+
+## KNOWLEGE BASE LEGEND
+
+1.	NSCLCL with ID YCGTJ9OF2Q
+2.	SCLC with ID UK3QFV2VTK
+3.	EstadioGuidlines with ID WKLGRLDZZS
+4.	DAT30_01 with ID 9LU9RAZUQL 
+5.	Clinical_trials with ID 3ZL5WKBYIC
 
 
 # PROMPT TEMPLATES
